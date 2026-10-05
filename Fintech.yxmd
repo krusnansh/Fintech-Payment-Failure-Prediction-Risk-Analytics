@@ -1,0 +1,695 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2026.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="18" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File OutputFileName="" RecordLimit="" SearchSubDirs="False" FileFormat="0">C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv</File>
+          <FormatSpecificOptions>
+            <CodePage>28591</CodePage>
+            <Delimeter>,</Delimeter>
+            <IgnoreErrors>False</IgnoreErrors>
+            <FieldLen>254</FieldLen>
+            <AllowShareWrite>False</AllowShareWrite>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <ImportLine>1</ImportLine>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>fintech_payment_failure_dirty.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="transaction_id" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="customer_id" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="merchant_id" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="customer_name" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="email" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="phone_number" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="dob" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="pan_number" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="aadhaar_last4" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="card_number_masked" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="upi_id" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="ip_address" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="billing_pincode" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="city" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="state" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="txn_timestamp" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="amount" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="currency" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="payment_method" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="card_network" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="issuer_bank" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="payment_gateway" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="merchant_category" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="device_type" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="os_version" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="app_version" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="network_type" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="retry_count" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="is_international" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="is_first_time_user" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="account_age_days" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="past_txn_count_30d" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="past_failure_rate_30d" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="avg_txn_amount_30d" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="account_balance_bucket" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="payment_status" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="failure_reason" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="response_code" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+            <Field name="processing_time_ms" size="254" source="File: C:\Users\krusn\Desktop\Prep\Altryx\Fintech\fintech_payment_failure_dirty.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="90" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="dob" selected="True" type="Date" size="10" />
+            <SelectField field="amount" selected="True" type="Double" size="8" />
+            <SelectField field="retry_count" selected="True" type="Int64" size="8" />
+            <SelectField field="is_international" selected="True" type="Bool" size="1" />
+            <SelectField field="is_first_time_user" selected="True" type="Bool" size="1" />
+            <SelectField field="account_age_days" selected="True" type="Int64" size="8" />
+            <SelectField field="past_txn_count_30d" selected="True" type="Int64" size="8" />
+            <SelectField field="past_failure_rate_30d" selected="True" type="Double" size="8" />
+            <SelectField field="avg_txn_amount_30d" selected="True" type="Double" size="8" />
+            <SelectField field="processing_time_ms" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="174" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF StartsWith([txn_timestamp],&quot;2026-&quot;)&#xA;THEN DateTimeParse([txn_timestamp],&quot;%Y-%m-%d %H:%M:%S&quot;)&#xA;&#xA;ELSEIF StartsWith([txn_timestamp],&quot;2026/&quot;)&#xA;THEN DateTimeParse([txn_timestamp],&quot;%Y/%m/%d %H:%M&quot;)&#xA;&#xA;ELSEIF Contains([txn_timestamp],&quot;/&quot;)&#xA;THEN DateTimeParse([txn_timestamp],&quot;%d/%m/%Y %H:%M&quot;)&#xA;&#xA;ELSEIF Contains([txn_timestamp],&quot;-&quot;)&#xA;THEN&#xA;    IF Contains([txn_timestamp],&quot;-Sep-&quot;)&#xA;    THEN DateTimeParse([txn_timestamp],&quot;%d-%b-%Y %H:%M:%S&quot;)&#xA;    ELSE DateTimeParse([txn_timestamp],&quot;%m-%d-%Y %H:%M&quot;)&#xA;    ENDIF&#xA;&#xA;ELSE Null()&#xA;ENDIF" field="txn_timestamp" size="254" type="V_String" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>txn_timestamp = IF StartsWith([txn_timestamp],"2026-")
+THEN DateTimeParse([txn_t...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="Cleanse.yxmc">
+        <Position x="246" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"transaction_id","customer_id","merchant_id","customer_name","email","phone_number","pan_number","aadhaar_last4","card_number_masked","upi_id","ip_address","billing_pincode","city","state","txn_timestamp","currency","payment_method","card_network","issuer_bank","payment_gateway","merchant_category","device_type","os_version","app_version","network_type","account_balance_bucket","payment_status","failure_reason","response_code"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Unique.Unique">
+        <Position x="318" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <UniqueFields>
+            <Field field="transaction_id" />
+          </UniqueFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnique" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="414" y="222" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\krusn\AppData\Local\Temp\Alteryx\Engine_6756_c4d2ba892e8546b299437e7853c57fd0_\Engine_6756_7f08864b7d6e4c0ebcae5842639d8a85~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="606" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\krusn\AppData\Local\Temp\Alteryx\Engine_6756_c4d2ba892e8546b299437e7853c57fd0_\Engine_6756_b8d6321f75af4f0b80345d0d3003bb85~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="510" y="6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="invalid_amount_flag" action="Sum" rename="Sum_invalid_amount_flag" />
+            <SummarizeField field="invalid_email_flag" action="Sum" rename="Sum_invalid_email_flag" />
+            <SummarizeField field="invalid_phone_flag" action="Sum" rename="Sum_invalid_phone_flag" />
+            <SummarizeField field="invalid_pan_flag" action="Sum" rename="Sum_invalid_pan_flag" />
+            <SummarizeField field="invalid_pincode_flag" action="Sum" rename="Sum_invalid_pincode_flag" />
+            <SummarizeField field="invalid_ip_flag" action="Sum" rename="Sum_invalid_ip_flag" />
+            <SummarizeField field="business_rule_exception_flag" action="Sum" rename="Sum_business_rule_exception_flag" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="558" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="transaction_id" selected="True" />
+            <SelectField field="city" selected="True" />
+            <SelectField field="issuer_bank" selected="True" />
+            <SelectField field="payment_gateway" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="Precision_Match.yxmc">
+        <Position x="738" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Input.Target Data"><![CDATA[Field=city
+]]></Value>
+          <Value name="Input.Reference" />
+          <Value name="Check Box (120)">True</Value>
+          <Value name="Radio Button (40)">True</Value>
+          <Value name="Radio Button (42)">False</Value>
+          <Value name="Text Box (118)">Standard Value</Value>
+          <Value name="Numeric Up Down (71)">1000</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Mapping Table">
+          <RecordInfo>
+            <Field name="Original Value" size="1073741823" source="TextInput:" type="V_WString" />
+            <Field name="Standard Value" size="1073741823" source="TextInput:" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Mapped Data">
+          <RecordInfo>
+            <Field name="transaction_id" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
+            <Field name="city" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
+            <Field name="issuer_bank" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
+            <Field name="payment_gateway" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Precision Match\Precision_Match.yxmc" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="LLMOverride_1_0">
+        <Position x="558" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Connection DcmType="ConnectionId">__activeLink__</Connection>
+          <alAuthError>
+          </alAuthError>
+          <authMethod>ActiveLink</authMethod>
+          <inputUrl>https://us1.alteryxcloud.com/aims/</inputUrl>
+          <keycloakRealm>ayx-platform</keycloakRealm>
+          <onError>warning</onError>
+          <platformPortalUrl />
+          <siteName>124839</siteName>
+          <spAuthError>
+          </spAuthError>
+          <spConnectionId />
+          <url>https://us1.alteryxcloud.com/aims/</url>
+          <validCredentials>true</validCredentials>
+          <Secrets />
+          <llmConnectionId>ayx-google-vertex-ai</llmConnectionId>
+          <modelName>
+          </modelName>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <SdkSettings Manifest="True" Language="Python" PluginDir="LLMOverride_1_0" Transport="arrow">
+          <CustomParameters>
+            <Version Value="2.5.1" />
+            <ToolVersion Value="1.0" />
+            <WritesOutputData Value="false" />
+          </CustomParameters>
+          <InputConnections />
+          <OutputConnections>
+            <Connection AllowMultiple="True" Label="M" Name="ModelConfig" Optional="False" Type="Connection" />
+          </OutputConnections>
+        </SdkSettings>
+      </Properties>
+      <EngineSettings EngineDll="SdkEnginePlugin.dll" EngineDllEntryPoint="SdkEnginePlugin" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="Precision_Match.yxmc">
+        <Position x="942" y="306" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Input.Target Data"><![CDATA[Field=payment_gateway
+]]></Value>
+          <Value name="Input.Reference" />
+          <Value name="Check Box (120)">True</Value>
+          <Value name="Radio Button (40)">True</Value>
+          <Value name="Radio Button (42)">False</Value>
+          <Value name="Text Box (118)">Standard Value</Value>
+          <Value name="Numeric Up Down (71)">1000</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Mapping Table">
+          <RecordInfo>
+            <Field name="Original Value" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Standard Value" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Mapped Data">
+          <RecordInfo>
+            <Field name="transaction_id" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
+            <Field name="city" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
+            <Field name="issuer_bank" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
+            <Field name="payment_gateway" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Precision Match\Precision_Match.yxmc" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="1062" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="transaction_id" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="transaction_id" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_transaction_id" selected="True" rename="Right_transaction_id" input="Right_" />
+                <SelectField field="Right_city" selected="True" rename="Right_city" input="Right_" />
+                <SelectField field="Right_issuer_bank" selected="True" rename="Right_issuer_bank" input="Right_" />
+                <SelectField field="Right_payment_gateway" selected="True" rename="Right_payment_gateway" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="1158" y="294" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="True" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="aadhaar_last4" selected="True" />
+            <SelectField field="account_age_days" selected="True" />
+            <SelectField field="account_balance_bucket" selected="True" />
+            <SelectField field="amount" selected="True" />
+            <SelectField field="app_version" selected="True" />
+            <SelectField field="avg_txn_amount_30d" selected="True" />
+            <SelectField field="billing_pincode" selected="True" />
+            <SelectField field="business_rule_exception_flag" selected="True" />
+            <SelectField field="card_network" selected="True" />
+            <SelectField field="card_number_masked" selected="True" />
+            <SelectField field="city" selected="False" />
+            <SelectField field="currency" selected="True" />
+            <SelectField field="customer_id" selected="True" />
+            <SelectField field="customer_name" selected="True" />
+            <SelectField field="device_type" selected="True" />
+            <SelectField field="dob" selected="True" />
+            <SelectField field="email" selected="True" />
+            <SelectField field="failure_reason" selected="True" />
+            <SelectField field="invalid_amount_flag" selected="True" />
+            <SelectField field="invalid_email_flag" selected="True" />
+            <SelectField field="invalid_ip_flag" selected="True" />
+            <SelectField field="invalid_pan_flag" selected="True" />
+            <SelectField field="invalid_phone_flag" selected="True" />
+            <SelectField field="invalid_pincode_flag" selected="True" />
+            <SelectField field="ip_address" selected="True" />
+            <SelectField field="is_first_time_user" selected="True" />
+            <SelectField field="is_international" selected="True" />
+            <SelectField field="issuer_bank" selected="False" />
+            <SelectField field="merchant_category" selected="True" />
+            <SelectField field="merchant_id" selected="True" />
+            <SelectField field="network_type" selected="True" />
+            <SelectField field="os_version" selected="True" />
+            <SelectField field="pan_number" selected="True" />
+            <SelectField field="past_failure_rate_30d" selected="True" />
+            <SelectField field="past_txn_count_30d" selected="True" />
+            <SelectField field="payment_gateway" selected="False" />
+            <SelectField field="payment_method" selected="True" />
+            <SelectField field="payment_status" selected="True" />
+            <SelectField field="phone_number" selected="True" />
+            <SelectField field="processing_time_ms" selected="True" />
+            <SelectField field="response_code" selected="True" />
+            <SelectField field="retry_count" selected="True" />
+            <SelectField field="Right_city" selected="True" rename="City" />
+            <SelectField field="Right_issuer_bank" selected="True" rename="issuer_bank" />
+            <SelectField field="Right_payment_gateway" selected="True" rename="payment_gateway" />
+            <SelectField field="Right_transaction_id" selected="False" />
+            <SelectField field="state" selected="True" />
+            <SelectField field="transaction_id" selected="True" />
+            <SelectField field="txn_timestamp" selected="True" />
+            <SelectField field="upi_id" selected="True" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="414" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="IF [amount] &lt;= 0 THEN 1 ELSE 0 ENDIF" field="invalid_amount_flag" size="4" type="Int32" enabled="true" />
+            <FormulaField expression="IF IsNull([email]) OR [email] = &quot;&quot; OR NOT RegEx_Match([email], &quot;^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$&quot;) THEN 1 ELSE 0 ENDIF" field="invalid_email_flag" size="4" type="Int32" enabled="true" />
+            <FormulaField expression="IF IsNull([phone_number]) OR [phone_number] = &quot;&quot; OR NOT RegEx_Match([phone_number], &quot;^[0-9]{10}$&quot;) THEN 1 ELSE 0 ENDIF" field="invalid_phone_flag" size="8" type="Int64" enabled="true" />
+            <FormulaField expression="IF IsNull([pan_number]) OR [pan_number] = &quot;&quot; OR NOT RegEx_Match(UpperCase([pan_number]), &quot;^[A-Z]{5}[0-9]{4}[A-Z]$&quot;) THEN 1 ELSE 0 ENDIF" field="invalid_pan_flag" size="8" type="Int64" enabled="true" />
+            <FormulaField expression="IF IsNull([billing_pincode]) OR [billing_pincode] = &quot;&quot; OR NOT RegEx_Match([billing_pincode], &quot;^[0-9]{6}$&quot;) THEN 1 ELSE 0 ENDIF" field="invalid_pincode_flag" size="8" type="Int64" enabled="true" />
+            <FormulaField expression="IF IsNull([ip_address]) OR [ip_address] = &quot;&quot; OR NOT RegEx_Match([ip_address], &quot;^([0-9]{1,3}\.){3}[0-9]{1,3}$&quot;) THEN 1 ELSE 0 ENDIF" field="invalid_ip_flag" size="8" type="Int64" enabled="true" />
+            <FormulaField expression="IF&#xA;    ([payment_status] = &quot;Success&quot; AND !IsNull([failure_reason]) AND [failure_reason] != &quot;&quot;)&#xA;    OR&#xA;    ([payment_status] = &quot;Success&quot; AND [response_code] != &quot;00&quot;)&#xA;    OR&#xA;    ([payment_status] = &quot;Failed&quot; AND (IsNull([failure_reason]) OR [failure_reason] = &quot;&quot;))&#xA;THEN 1&#xA;ELSE 0&#xA;ENDIF" field="business_rule_exception_flag" size="8" type="Int64" enabled="true" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>invalid_amount_flag = IF [amount] &lt;= 0 THEN 1 ELSE 0 ENDIF
+invalid_email_flag = ...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="Precision_Match.yxmc">
+        <Position x="870" y="210" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Input.Target Data"><![CDATA[Field=issuer_bank
+]]></Value>
+          <Value name="Input.Reference" />
+          <Value name="Check Box (120)">True</Value>
+          <Value name="Radio Button (40)">True</Value>
+          <Value name="Radio Button (42)">False</Value>
+          <Value name="Text Box (118)">Standard Value</Value>
+          <Value name="Numeric Up Down (71)">1000</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Mapping Table">
+          <RecordInfo>
+            <Field name="Original Value" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+            <Field name="Standard Value" size="1073741823" source="(Multiple Sources)" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+        <MetaInfo connection="Mapped Data">
+          <RecordInfo>
+            <Field name="transaction_id" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
+            <Field name="city" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
+            <Field name="issuer_bank" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
+            <Field name="payment_gateway" size="254" source="Formula: Trim([_CurrentField_],&quot; 	&quot;+CharFromInt(10)+CharFromInt(13)+CharFromInt(160))" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings Macro="Precision Match\Precision_Match.yxmc" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Output" />
+      <Destination ToolID="6" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output26" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Duplicates" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Unique" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="Output" />
+      <Destination ToolID="14" Connection="Target Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="ModelConfig" />
+      <Destination ToolID="14" Connection="LLM Connection" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Mapped Data" />
+      <Destination ToolID="16" Connection="Target Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="ModelConfig" />
+      <Destination ToolID="16" Connection="LLM Connection" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="ModelConfig" />
+      <Destination ToolID="18" Connection="LLM Connection" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Mapped Data" />
+      <Destination ToolID="18" Connection="Target Data" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="Mapped Data" />
+      <Destination ToolID="19" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="19" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Join" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <DefaultTZ value="Local" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <IsTemplate value="False" />
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Fintech</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="bc0fb288-56fd-4ca9-80fd-90361a1b36ed" />
+      <Telemetry>
+        <PreviousWorkflowId value="e5098195-1320-4869-aebf-b4052d70187b" />
+        <OriginWorkflowId value="e5098195-1320-4869-aebf-b4052d70187b" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
