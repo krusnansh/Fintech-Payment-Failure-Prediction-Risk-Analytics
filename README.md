@@ -44,4 +44,3 @@ Alteryx Designer, Input Data, Select, Data Cleansing, Unique, Formula, Summarize
 
 Current Status
 Completed: Data cleaning, validation, duplicate handling, AI-assisted standardization, and business analysis.
-Next: Feature engineering, ML model training and evaluation, failure probability prediction, and risk scoring.
